@@ -1,0 +1,168 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+    background-color:black;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.39);
+}
+
+.header-nav {
+    margin: 10px 10px;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 23px;
+    border-radius: 10px;
+}
+
+.header-nav a:hover {
+    background-color: rgba(128, 128, 128, 0.301);
+    transition: 0.5s;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+.guni {
+    background-image: linear-gradient(rgba(255, 192, 203, 0.575), rgba(47, 145, 158, 0.4), rgba(177, 72, 64, 0.349)), url(/dariusz-sankowski-3OiYMgDKJ6k-unsplash.jpg);
+    height: 500px;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.title-text {
+    color: white;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.title-text h1 {
+    font-size: 50px;
+    padding: 10px 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.title-text p {
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.b img{
+    width: 6cm;
+    height: 5cm;
+}
+
+.b{
+    flex: 0 0 30%;
+    width: 20%;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+/* end of class guni */
+/* start of class travel-guide */
+
+.container {
+    width: 1250px;
+    margin: auto;
+    text-align: center;
+}
+
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.fa{
+    font-size: 25px;
+    color: silver;
+    text-align: center;
+}
+
+.a {
+    float: left;
+    width: 25%;
+    color: pink;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* End of travel-guide */
+  /* Start of pic */
+
+  .container{
+      width: 1250px;
+      margin: auto;
+      text-align: center;
+  }
+
+  .rows{
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+.c {
+    color: white;
+    text-shadow: 2px 2px 4px pink;
+}
+
+  .b {
+    float: left;
+    width: 30%;
+    color: pink;
+    box-shadow: wheat;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: warp;
+    clear: both;
+  }
+
+/* End of pic */
+/* Start of new */
+
+.d {
+    float: left;
+    width: 25%;
+    height: 100%;
+    color: pink;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .e{
+      border-radius: 5px;
+      color: thistle;
+  }
+
